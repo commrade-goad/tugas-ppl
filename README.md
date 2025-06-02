@@ -1,5 +1,9 @@
 # Tugas PPL
 
+## Note
+
+Required `go 1.24.3`
+
 ## Usage
 
 1. Install go
