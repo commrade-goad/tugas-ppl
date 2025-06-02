@@ -6,7 +6,7 @@ Required `go 1.24.3`
 
 ## Usage
 
-1. Install go
+### 1. Install go
 
 __Arch:__
 ```sh
@@ -17,15 +17,24 @@ __Other:__
 
 Figure it yourself
 
-2. Build program
+### 2. Build program
 
 ```sh
 go mod tidy
 go build .
 ```
 
-3. Run program
+### 3. Run program
 
 ```sh
 go run .
 ```
+
+### 4. Access
+can be Accessed at `localhost:3000`.
+
+available Route:
+
+* `/` -> redirect to `/home`
+* `/home` -> Home
+* `/about` -> About
